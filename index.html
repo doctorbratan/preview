@@ -7,7 +7,7 @@
     <title>BelkaLoungeMenu</title>
     <link rel="stylesheet" href="./font/font.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="snow.css">
+    <!-- <link rel="stylesheet" href="snow.css"> -->
     <link rel="icon" href="favicon.ico" type="image/x-icon"/>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-302CQXDTXJ"></script>
@@ -24,9 +24,9 @@
 <body >
     <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
 
-    <div  id="snow">
+    <!-- <div  id="snow">
         <div v-for="index in 50" :key="index" class="snow"></div>
-    </div>
+    </div> -->
 
     <span id="swipe">
         <lottie-player src="https://assets10.lottiefiles.com/private_files/lf30_pegzbow7.json" background="transparent" speed="1"  loop  autoplay></lottie-player>
@@ -36,7 +36,7 @@
     </main>
     
     <div id="section">
-        <div v-for="index in 30" :key="index" class="snow"></div>
+        <!-- <div v-for="index in 30" :key="index" class="snow"></div> -->
 
         <section id="language-section">
 
@@ -68,6 +68,7 @@
                     <img  v-if="block.adult" class="adult" src="./img/18+.svg" alt="18+">
                     <h1>{{block.ru_title}}</h1>
                 </span>
+
                <span v-for="position in block.positions" class="column">
                     <br> 
                     <span class="position">
@@ -91,6 +92,7 @@
                     <img  v-if="block.adult" class="adult" src="./img/18+.svg" alt="18+">
                     <h1>{{block.en_title}}</h1>
                 </span>
+                
                 <span v-for="position in block.positions" class="column">
                      <br> 
                      <span class="position">

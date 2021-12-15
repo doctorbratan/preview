@@ -938,9 +938,9 @@ const menu = {
                         },
                         {
                             en_name: "HONOR OR SHAME?",
-                            en_description: "( VODKA 2, TEQUILA 2, GIN 2, RUM 2, SPRITE 2, JUICE 4 )",
+                            en_description: "( VODKA 2, TEQUILA 2, GIN 2, RUM 2, SPRITE 4, JUICE 4 )",
                             ru_name: "ЧЕСТЬ ИЛИ ПОЗОР?",
-                            ru_description: "( ВОДКА 2, ТЕКИЛА 2, ДЖИН 2, РОМ 2, СПРАЙТ 2, СОК 4 )",
+                            ru_description: "( ВОДКА 2, ТЕКИЛА 2, ДЖИН 2, РОМ 2, СПРАЙТ 4, СОК 4 )",
                             cost: 300
                         },
                         {

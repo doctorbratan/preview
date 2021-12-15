@@ -39,6 +39,7 @@
         <div v-for="index in 30" :key="index" class="snow"></div>
 
         <section id="language-section">
+
             <span class="language">
                 <span class="lang-span" onclick="loading('ru')">
                     <h3  class="lang_font" >RU</h3>
@@ -56,11 +57,13 @@
         </section>
 
         <section  v-for="page in menu.pages" v-bind:style="page.background" >
+
             <br>
+
             <div v-if="language == 'ru' "  v-for="block in page.blocks" class="column">
-                <div class="div-snow">
-                    <!-- <div v-for="index in 10" :key="index" class="snow snow-self"></div> -->
-                </div>
+                
+                <br>
+
                 <span class="title-span">
                     <img  v-if="block.adult" class="adult" src="./img/18+.svg" alt="18+">
                     <h1>{{block.ru_title}}</h1>
@@ -75,8 +78,15 @@
                         <h2 v-if="position.cost">{{position.cost}} {{menu.cost}}</h2>
                     </span>
                 </span>
+
+                <br>
+
             </div>
+
             <div v-if="language == 'en' "  v-for="block in page.blocks" class="column">
+
+                <br>
+
                 <span class="title-span">
                     <img  v-if="block.adult" class="adult" src="./img/18+.svg" alt="18+">
                     <h1>{{block.en_title}}</h1>
@@ -91,9 +101,15 @@
                          <h2 v-if="position.cost">{{position.cost}} {{menu.cost}}</h2>
                      </span>
                  </span>
+
+                <br>
+
              </div>
+
             <br>
+
         </section> 
+
         <section id="wine">
             <h1 v-if="language == 'ru' " id="wine-cart" class="wine">ВИННАЯ КАРТА</h1>
             <h1 v-if="language == 'en' " id="wine-cart" class="wine">WINE MAP</h1>

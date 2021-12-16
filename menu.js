@@ -116,6 +116,44 @@ const menu = {
             blocks: 
             [
                 {
+                    en_title: "MOOD COLOR WINTER:",
+                    ru_title: "ЦВЕТ НАСТРОЕНИЯ ЗИМНИЙ:",
+                    positions: 
+                    [
+                        {
+                            en_name: "SEA BUCKTHORN TEA",
+                            ru_name: "ОБЛЕПИХОВЫЙ ЧАЙ",
+                            cost: 60
+                        },
+                        {
+                            en_name: "Berry Tea",
+                            ru_name: "Ягодный Чай",
+                            cost: 65
+                        },
+                        {
+                            en_name: "Raspberry Tea",
+                            ru_name: "Малиновый Чай",
+                            cost: 60
+                        },
+                        {
+                            sub_en_name: "18+",
+                            en_name: "Drunk mulled wine",
+                            en_description: "( Homemade wine, Water, Orange, Apple, Lemon, Cloves, Star anise, Cinnamon, Natural honey, Cane sugar )",
+                            ru_name: "Пьяный Глинтвейн",
+                            ru_description: "( Вино Домашнее, Вода, Апельсин, Яблоко, Лимон, Гвоздика, Бадьян, Корица, Мёд натуральный, Тросниковый сахар )",
+                            sub_ru_name: "18+",
+                            cost: 65
+                        },
+                        {
+                            en_name: "Drunk mulled wine",
+                            en_description: "( Cherry juice, Cherry syrup, Orange, Apple, Lemon, Clove, Star anise, Cinnamon, Natural honey, Cane sugar )",
+                            ru_name: "Трезвый глинтвейн",
+                            ru_description: "( Вишневый сок, Вишневый сироп, Апельсин, Яблоко, Лимон, Гвоздика, Бадьян, Корица, Мед Натуральный, Тросниковый сахар )",
+                            cost: 55
+                        }
+                    ]
+                },
+                {
                     en_title: "COFFEE:",
                     ru_title: "КОФЕ:",
                     positions: 
@@ -575,6 +613,13 @@ const menu = {
                     positions: 
                     [
                         {
+                            en_name: "FLAMINGO",
+                            en_description: "( BANANA JUICE, STRAWBERRY, LEMON JUICE, COCONUT SYRUP, CARBONATION )",
+                            ru_name: "ФЛАМИНГО",
+                            ru_description: "( БАНАНОВЫЙ СОК, КЛУБНИКА, ЛИМОННЫЙ СОК, КОКОСОВЫЙ СИРОП, ГАЗИРОВКА )",
+                            cost: 38
+                        },
+                        {
                             en_name: "MOJITO",
                             en_description: "( SUGAR SYRUP, SPRITE, MINT, LIME )",
                             ru_name: "МОХИТО",
@@ -624,6 +669,34 @@ const menu = {
                     ru_title: "КОКТЕЙЛИ АЛКОГОЛЬНЫЕ:",
                     positions:
                     [
+                        {
+                            en_name: "Pandora",
+                            en_description: "( RUM, LEMON JUICE, BLUE CURASAO, PEACH LIQUOR )",
+                            ru_name: "Пандора",
+                            ru_description: "( РОМ, ЛИМОННЫЙ СОК, БЛЮ КЮРАСАО, ПЕРСИКОВЫЙ ЛИКЕР )",
+                            cost: 55
+                        },
+                        {
+                            en_name: "Black and White",
+                            en_description: "( GRENADINE, ORANGE JUICE, TEQUILA )",
+                            ru_name: "Блэк энд Уайт",
+                            ru_description: "( БЭЙЛИС, КОФЕЙНЫЙ ЛИКЕР, МОЛОКО, КАРАМЕЛЬНЫЙ СИРОП, ШОКОЛАДНЫЙ СИРОП )",
+                            cost: 55
+                        },
+                        {
+                            en_name: "Martini piano",
+                            en_description: "( MARTINI, CRISECO )",
+                            ru_name: "Мартини рояль",
+                            ru_description: "( МАРТИНИ, КРИСЕКО )",
+                            cost: 50
+                        },
+                        {
+                            en_name: "St. Duma",
+                            en_description: "( APEROL, GIN, GRENADINE, LEMON JUICE )",
+                            ru_name: "Ул. Думская",
+                            ru_description: "( АПЕРОЛЬ, ДЖИН, ГРЕНАДИН, ЛИМОННЫЙ СОК )",
+                            cost: 60
+                        },
                         {
                             en_name: "TEQUILA SUNRISE",
                             en_description: "( GRENADINE, ORANGE JUICE, TEQUILA )",
